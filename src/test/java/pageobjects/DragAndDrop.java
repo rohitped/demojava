@@ -13,6 +13,10 @@ public class DragAndDrop extends SeleniumClass{
 		this.clickElement(element);
 	}
 	
+	public void gitdiff(){
+		
+	}
+	
 	public void DragBA(){
 		element = this.locateElement(xpathPosition2, "xpath");
 		
