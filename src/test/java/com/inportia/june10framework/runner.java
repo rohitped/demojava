@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="src\\test\\java\\resources",
 		glue= "stepdef",
-		//tags= {"@cd"},
+		tags= {"@dd"},
 		monochrome=true,
 		dryRun=false
 		)
